@@ -11,4 +11,4 @@ while True:
         print(f"The number of odds are: {len(num_list)}")
         break
     except ValueError:
-        print("Error.")
+        print("Error. Enter a valid number.")

@@ -2,10 +2,12 @@
 
 while True:
     try:
-        num1 = float(input("Enter a number: "))
-        num2 = float(input("Enter a number: "))
-        num_quotient = num1 / num2
+        num_1 = float(input("Enter a number: "))
+        num_2 = float(input("Enter a number: "))
+
+        num_quotient = num_1 / num_2
+
         print(f"The quotient of the 2 numbers is {num_quotient:.2f}")
         break
     except ValueError:
-        print("Error.")
+        print("Error. Enter a valid number.")

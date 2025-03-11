@@ -11,4 +11,4 @@ while True:
         print(f"The sum of all the numbers is {num_sum:.0f}")
         break
     except ValueError:
-        print("Error.")
+        print("Error. Enter a valid number.")
